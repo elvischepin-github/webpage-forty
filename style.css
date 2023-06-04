@@ -39,15 +39,20 @@ header p {
   max-width: 400px;
   width: 70%;
 }
-header a {
+a.get-started {
   color: white;
   border: 3px solid white;
-  padding: 5px 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 15px 10px;
   font-weight: bold;
   letter-spacing: 2px;
   transition: 0.3s;
+  font-size: 14px;
+  height: 24px;
 }
-header a:hover {
+a.get-started:hover {
   color: #73a792;
   border-color: #73a792;
 }
