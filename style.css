@@ -45,7 +45,7 @@ a.get-started {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 15px 10px;
+  padding: 5px 10px;
   font-weight: bold;
   letter-spacing: 2px;
   transition: 0.3s;
@@ -160,6 +160,19 @@ main .article-6::before {
 .header2 .bottom p {
   max-width: 100%;
   width: 100%;
+}
+.header2 a {
+  color: white;
+  border: 3px solid white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px 10px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  transition: 0.3s;
+  font-size: 14px;
+  height: 24px;
 }
 /* Foot */
 footer {
